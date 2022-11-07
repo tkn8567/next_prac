@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Header from './header';
 import Colors from './colors';
 import { Grid } from '@mui/material';
+import TitlebarBelowImageList from './photo';
+import SimpleGrow from './grow';
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Header />
       <div style={{ padding: 30 }}>
         <Colors />
+        <SimpleGrow/>
+        <TitlebarBelowImageList />
       </div>
     </Grid>
     </>
